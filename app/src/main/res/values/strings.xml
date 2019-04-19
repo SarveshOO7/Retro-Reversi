@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Retro Reversi</string>
+    <string name="error_title">Rules</string>
+    <string name="error_message">You are green. The computer is red. The grey positions are empty positions. You go first. For other rules please click<a href = "https://www.youtube.com/watch?v=Ol3Id7xYsY4"> here.</a></string>
+    <string name="error_button_ok_text">OK</string>
+    <string name="network_unavailable_message">Sorry, the network is unavailable</string>
+    <string name="rules_link"> <a href = "https://www.youtube.com/watch?v=Ol3Id7xYsY4"> here.</a></string>
+    <string name="dark_sky_message"><a href="https://darksky.net/poweredby">Made by Sarvesh Tandon</a></string>
+    <string name="victory_text">You have won!!!</string>
+</resources>

@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FE2F2B46"
+    tools:context=".GameActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/ic_notification_overlay"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="302dp"
+        tools:layout_editor_absoluteY="584dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/presence_busy"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="354dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <Button
+        android:id="@+id/square5x1"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginStart="32dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/square4x7" />
+
+    <Button
+        android:id="@+id/square5x8"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square5x7"
+        app:layout_constraintTop_toBottomOf="@+id/square4x8" />
+
+    <Button
+        android:id="@+id/square5x7"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square5x6"
+        app:layout_constraintTop_toBottomOf="@+id/square4x7" />
+
+    <Button
+        android:id="@+id/square5x6"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square5x5"
+        app:layout_constraintTop_toBottomOf="@+id/square4x5" />
+
+    <Button
+        android:id="@+id/square6x1"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginStart="32dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/square5x1" />
+
+    <Button
+        android:id="@+id/square6x8"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square6x7"
+        app:layout_constraintTop_toBottomOf="@+id/square5x8" />
+
+    <Button
+        android:id="@+id/square6x7"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square6x6"
+        app:layout_constraintTop_toBottomOf="@+id/square5x7" />
+
+    <Button
+        android:id="@+id/square6x6"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square6x5"
+        app:layout_constraintTop_toBottomOf="@+id/square5x5" />
+
+    <Button
+        android:id="@+id/square6x5"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square6x4"
+        app:layout_constraintTop_toBottomOf="@+id/square5x6" />
+
+    <Button
+        android:id="@+id/square7x1"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginStart="32dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/square6x1" />
+
+    <Button
+        android:id="@+id/square7x8"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square7x7"
+        app:layout_constraintTop_toBottomOf="@+id/square6x8" />
+
+    <Button
+        android:id="@+id/square7x7"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square7x6"
+        app:layout_constraintTop_toBottomOf="@+id/square6x7" />
+
+    <Button
+        android:id="@+id/square8x1"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginStart="32dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/square7x1" />
+
+    <Button
+        android:id="@+id/square8x8"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square8x7"
+        app:layout_constraintTop_toBottomOf="@+id/square7x8" />
+
+    <Button
+        android:id="@+id/square8x7"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square8x6"
+        app:layout_constraintTop_toBottomOf="@+id/square7x6" />
+
+    <Button
+        android:id="@+id/square8x6"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square8x5"
+        app:layout_constraintTop_toBottomOf="@+id/square7x7" />
+
+    <Button
+        android:id="@+id/square8x5"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square8x4"
+        app:layout_constraintTop_toBottomOf="@+id/square7x5" />
+
+    <Button
+        android:id="@+id/square8x4"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square8x3"
+        app:layout_constraintTop_toBottomOf="@+id/square7x4" />
+
+    <Button
+        android:id="@+id/square8x3"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square8x2"
+        app:layout_constraintTop_toBottomOf="@+id/square7x3" />
+
+    <Button
+        android:id="@+id/square8x2"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square8x1"
+        app:layout_constraintTop_toBottomOf="@+id/square7x2" />
+
+    <Button
+        android:id="@+id/square7x6"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square7x5"
+        app:layout_constraintTop_toBottomOf="@+id/square6x6" />
+
+    <Button
+        android:id="@+id/square7x5"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square7x4"
+        app:layout_constraintTop_toBottomOf="@+id/square6x5" />
+
+    <Button
+        android:id="@+id/square7x4"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square7x3"
+        app:layout_constraintTop_toBottomOf="@+id/square6x4" />
+
+    <Button
+        android:id="@+id/square7x3"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square7x2"
+        app:layout_constraintTop_toBottomOf="@+id/square6x3" />
+
+    <Button
+        android:id="@+id/square7x2"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square7x1"
+        app:layout_constraintTop_toBottomOf="@+id/square6x2" />
+
+    <Button
+        android:id="@+id/square6x4"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square6x3"
+        app:layout_constraintTop_toBottomOf="@+id/square5x4" />
+
+    <Button
+        android:id="@+id/square6x3"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square6x2"
+        app:layout_constraintTop_toBottomOf="@+id/square5x3" />
+
+    <Button
+        android:id="@+id/square6x2"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square6x1"
+        app:layout_constraintTop_toBottomOf="@+id/square5x2" />
+
+    <Button
+        android:id="@+id/square5x5"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square5x4"
+        app:layout_constraintTop_toBottomOf="@+id/square4x6" />
+
+    <Button
+        android:id="@+id/square5x4"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square5x3"
+        app:layout_constraintTop_toBottomOf="@+id/square4x4" />
+
+    <Button
+        android:id="@+id/square5x3"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square5x2"
+        app:layout_constraintTop_toBottomOf="@+id/square4x3" />
+
+    <Button
+        android:id="@+id/square5x2"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square5x1"
+        app:layout_constraintTop_toBottomOf="@+id/square4x2" />
+
+    <Button
+        android:id="@+id/square4x1"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginStart="32dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/square3x1" />
+
+    <Button
+        android:id="@+id/square4x8"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square4x7"
+        app:layout_constraintTop_toBottomOf="@+id/square3x8" />
+
+    <Button
+        android:id="@+id/square4x7"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square4x6"
+        app:layout_constraintTop_toBottomOf="@+id/square3x7" />
+
+    <Button
+        android:id="@+id/square4x6"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square4x5"
+        app:layout_constraintTop_toBottomOf="@+id/square3x6" />
+
+    <Button
+        android:id="@+id/square4x5"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square4x4"
+        app:layout_constraintTop_toBottomOf="@+id/square3x5" />
+
+    <Button
+        android:id="@+id/square4x4"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square4x3"
+        app:layout_constraintTop_toBottomOf="@+id/square3x4" />
+
+    <Button
+        android:id="@+id/square4x3"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square4x2"
+        app:layout_constraintTop_toBottomOf="@+id/square3x3" />
+
+    <Button
+        android:id="@+id/square4x2"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square4x1"
+        app:layout_constraintTop_toBottomOf="@+id/square3x2" />
+
+    <Button
+        android:id="@+id/square1x5"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square1x4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/square1x3"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square1x2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/square1x6"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square1x5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/square1x4"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square1x3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/square1x2"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square1x1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/square1x7"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square1x6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/square1x8"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square1x7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/square1x1"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:fadingEdgeLength="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/square2x1"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginStart="32dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/square1x1" />
+
+    <Button
+        android:id="@+id/square3x1"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginStart="32dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/square2x1" />
+
+    <Button
+        android:id="@+id/square3x7"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square3x6"
+        app:layout_constraintTop_toBottomOf="@+id/square2x7" />
+
+    <Button
+        android:id="@+id/square3x6"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square3x5"
+        app:layout_constraintTop_toBottomOf="@+id/square2x6" />
+
+    <Button
+        android:id="@+id/square3x5"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square3x4"
+        app:layout_constraintTop_toBottomOf="@+id/square2x5" />
+
+    <Button
+        android:id="@+id/square3x4"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square3x3"
+        app:layout_constraintTop_toBottomOf="@+id/square2x4" />
+
+    <Button
+        android:id="@+id/square3x3"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square3x2"
+        app:layout_constraintTop_toBottomOf="@+id/square2x3" />
+
+    <Button
+        android:id="@+id/square3x2"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square3x1"
+        app:layout_constraintTop_toBottomOf="@+id/square2x2" />
+
+    <Button
+        android:id="@+id/square3x8"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square3x7"
+        app:layout_constraintTop_toBottomOf="@+id/square2x8" />
+
+    <Button
+        android:id="@+id/square2x2"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square2x1"
+        app:layout_constraintTop_toBottomOf="@+id/square1x2" />
+
+    <Button
+        android:id="@+id/square2x4"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square2x3"
+        app:layout_constraintTop_toBottomOf="@+id/square1x4" />
+
+    <Button
+        android:id="@+id/square2x7"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square2x6"
+        app:layout_constraintTop_toBottomOf="@+id/square1x7" />
+
+    <Button
+        android:id="@+id/square2x8"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square2x7"
+        app:layout_constraintTop_toBottomOf="@+id/square1x8" />
+
+    <Button
+        android:id="@+id/square2x5"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square2x4"
+        app:layout_constraintTop_toBottomOf="@+id/square1x5" />
+
+    <Button
+        android:id="@+id/square2x6"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square2x5"
+        app:layout_constraintTop_toBottomOf="@+id/square1x6" />
+
+    <Button
+        android:id="@+id/square2x3"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        app:layout_constraintStart_toEndOf="@+id/square2x2"
+        app:layout_constraintTop_toBottomOf="@+id/square1x3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/presence_online"
+        android:drawablePadding="0dp"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="313dp"
+        tools:layout_editor_absoluteY="650dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:background="@android:drawable/radiobutton_off_background"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="354dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <TextView
+        android:id="@+id/ComputerScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="112dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="52dp"
+        android:text="Your score:- "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/square8x3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="71dp"
+        android:layout_height="41dp"
+        android:text="2"
+        android:textColor="@android:color/background_light"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ComputerScore"
+        app:layout_constraintStart_toEndOf="@+id/ComputerScore" />
+
+    <TextView
+        android:id="@+id/simpletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Computer Score:-"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/ComputerScore"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <TextView
+        android:id="@+id/computerScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:text="2"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/simpletext"
+        app:layout_constraintTop_toBottomOf="@+id/ComputerScore"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="70dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/refresh"
+        android:linksClickable="true"
+        android:longClickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/simpletext"
+        tools:clickable="false" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="Made By Sarvesh Tandon"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/simpletext" />
+
+</android.support.constraint.ConstraintLayout>
